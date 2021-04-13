@@ -29,4 +29,4 @@ jobs:
       - name: Run a one-line script
         env:
           TEXT: ${{ secrets.TEXT }
-        run: echo ENV VAR IS - ${{ TEXT }
+        run: echo ENV VAR IS - $TEXT
